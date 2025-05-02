@@ -76,4 +76,18 @@ Bu hafta, ön işlenmiş metin verileri hem TF-IDF yöntemiyle vektörleştirile
 * Eğitilen Word2Vec modelleri, kelime benzerliği, kelime analojisi gibi görevlerde değerlendirilebilir.
 * Modelin performansı ve elde edilen vektörlerin kalitesi analiz edilebilir.
 * En iyi performansı gösteren modeller, proje kapsamında kullanılmak üzere seçilebilir.
+1. **Gerekli Kütüphanelerin Kurulumu:**
+    * Proje için gerekli Python kütüphanelerini yüklemek için `requirements.txt` dosyasını kullanın.
+    * Komut satırında, `requirements.txt` dosyasının bulunduğu dizine gidin ve şu komutu çalıştırın:
+        ```bash
+        pip install -r requirements.txt
+        ```
+
+2.  **Veri Setinin Hazırlanması:**
+    * Veri toplama adımlarını uygulamak için `notebooks/01_data_collection.ipynb` not defterini çalıştırın. Bu, veriyi toplar ve birleştirir.(İsteğe bağlıdır. Birleştirilmiş veri data klasöründe mevcuttur.)
+    * Veri ön işleme adımlarını uygulamak için `notebooks/02_data_preprocess.ipynb` not defterini çalıştırın. Bu, metin verisini temizler ve işler.(İsteğe bağlıdır. İşlenmiş veri data klasöründe mevcuttur.)
+
+3.  **Veri Analizi ve Vektörleştirme:**
+    * Veri setinin özelliklerini anlamak için `notebooks/01_01_zipf_analizi.ipynb` ve `notebooks/02_01_lemmatizeandstemmed_zipf.ipynb` dosyalarını çalıştırarak Zipf Yasası analizini gerçekleştirin.
+    * Metin verisini makine öğrenimi modelleri için sayısal vektörlere dönüştürmek için `notebooks/03_vectorization_tf-idf.ipynb` veya `notebooks/04_word2vec.ipynb` not defterlerini çalıştırın.
 
