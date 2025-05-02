@@ -1,0 +1,7 @@
+# Temel Kütüphaneler
+pandas==2.1.3         # Veri manipülasyonu ve analizi için
+numpy==1.26.2          # Bilimsel hesaplamalar için
+matplotlib==3.8.2     # Veri görselleştirme için
+nltk==3.8.1           # Doğal Dil İşleme (NLP) görevleri için
+scikit-learn==1.3.2    # Makine öğrenimi algoritmaları için
+gensim==4.3.2          # Kelime vektörleri için
